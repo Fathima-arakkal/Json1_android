@@ -4,14 +4,15 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.EditText;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity {
-
+    EditText textView1;
     public static final String JSON_STRING="{\"employee\":{\"name\":\"Sachin\",\"salary\":56000}}";
-    private ActionBar.Tab textView1;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
